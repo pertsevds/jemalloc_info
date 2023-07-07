@@ -4,7 +4,7 @@ defmodule JemallocStats.MixProject do
   def project do
     [
       app: :jemalloc_info,
-      version: "0.3.0",
+      version: "0.5.1",
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -23,7 +23,7 @@ defmodule JemallocStats.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ex_doc, "~> 0.19", only: [:dev], runtime: false}
+      {:ex_doc, "~> 0.30", only: [:dev], runtime: false}
     ]
   end
 
